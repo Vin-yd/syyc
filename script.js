@@ -8,10 +8,10 @@ const fanBases = [
 
 // 示例元素数据
 const elements = [
-    { id: 'element1', name: '', url: '\syyc\yuan1.png' },
-    { id: 'element2', name: '', url: '\syyc\yuan2.png' },
-    { id: 'element3', name: '', url: '\syyc\yuan3.png' },
-    { id: 'element4', name: '', url: '\syyc\yuan4.png' }
+    { id: 'element1', name: '', url: 'yuan1.png' },
+    { id: 'element2', name: '', url: 'yuan2.png' },
+    { id: 'element3', name: '', url: 'yuan3.png' },
+    { id: 'element4', name: '', url: 'yuan4.png' }
 ];
 
 // 获取DOM元素
