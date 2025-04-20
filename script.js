@@ -1,17 +1,17 @@
 // 示例扇底数据
 const fanBases = [
-    { id: 'fan1', name: '"千恋万花"系列扇底', url: 'fan1.png' },
-    { id: 'fan2', name: '"竹之情"系列扇底', url: 'fan2.png' },
-    { id: 'fan3', name: '"大美牡丹"系列扇底', url: 'fan3.png' },
-    { id: 'fan4', name: '"烟墨"系列扇底', url: 'fan4.png' }
+    { id: 'fan1', name: '"千恋万花"系列扇底', url: '\\syyc\\fan1.png' },
+    { id: 'fan2', name: '"竹之情"系列扇底', url: '\\syyc\\fan2.png' },
+    { id: 'fan3', name: '"大美牡丹"系列扇底', url: '\\syyc\\fan3.png' },
+    { id: 'fan4', name: '"烟墨"系列扇底', url: '\\syyc\\fan4.png' }
 ];
 
 // 示例元素数据
 const elements = [
-    { id: 'element1', name: '', url: 'yuan1.png' },
-    { id: 'element2', name: '', url: 'yuan2.png' },
-    { id: 'element3', name: '', url: 'yuan3.png' },
-    { id: 'element4', name: '', url: 'yuan4.png' }
+    { id: 'element1', name: '', url: '\\syyc\\yuan1.png' },
+    { id: 'element2', name: '', url: '\\syyc\\yuan2.png' },
+    { id: 'element3', name: '', url: '\\syyc\\yuan3.png' },
+    { id: 'element4', name: '', url: '\\syyc\\yuan4.png' }
 ];
 
 // 获取DOM元素
