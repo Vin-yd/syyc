@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>扇子设计工具</title>
+    <link rel="stylesheet" href="\syyc\styles2.css">
+</head>
+<body>
+    <header>
+        <!-- <h1>自主创作</h1> -->
+        <nav>
+            <img src="\syyc\syyc.png" alt=""class="syyc">
+            <a class="index" href="\syyc\index.html">首页</a >
+            <a href="\syyc\creative.html">自主<br>创作</a >
+            <a href="team.html">创业<br>团队</a >
+            <a href="company.html">企业<br>信息</a >
+            <a href="services.html">售后<br>服务</a >
+            <a href="vip.html">VIP<br>服务</a >
+            <a href="login.html">登录<br>注册</a >
+           </nav>
+        </header>
+    <div class="container">
+        <div class="left-section">
+            <div class="preview-title">创作效果预览</div>
+            <div class="preview-container" id="preview">
+                <!-- 预览区域 -->
+                 <img class="moren"src="\syyc\moren.png" alt=""width: 100%;
+                 height: 400px;>
+            </div>
+            <button class="order-button" id="orderButton">定制完成，发送订单</button>
+            <div class="footer-text">双遗文创-云端解锁非遗密码</div>
+        </div>
+
+        <div class="right-section">
+            <div class="sidebar">
+                <div class="sidebar-item active">创作教程</div>
+                <!-- <div class="sidebar-item">展开</div> -->
+                <div class="sidebar-item">预设模板</div>
+                <!-- <div class="sidebar-item">展开</div> -->
+            </div>
+
+            <div class="main-section">
+                <div class="content-section">
+                    <div class="fan-container">
+                        <div class="section-header">
+                            <div class="section-title">选择扇底</div>
+                            <div class="section-subtitle">Choose a fan</div>
+                        </div>
+                        <div class="fan-grid" id="fanGrid">
+                            <!-- 扇底项目将通过JavaScript动态生成 -->
+                        </div>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="element-container">
+                        <div class="section-header">
+                            <div class="section-title">选择元素</div>
+                            <div class="section-subtitle">Choose elements</div>
+                        </div>
+                        <div class="element-grid" id="elementGrid">
+                            <!-- 元素项目将通过JavaScript动态生成 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='\syyc\script.js"></script>
+</body>
+</html>
